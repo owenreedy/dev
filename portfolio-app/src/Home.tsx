@@ -1,12 +1,14 @@
 // HomePage
 
 const Home = () => {
-    return (
-      <div className="home">
-        <h1>Hello, I'm Owen</h1>
-        <p>Welcome to my portfolio!</p>
+  return (
+    <>
+      <div id="home" className="hero">
+        <h1>Welcome to My Portfolio</h1>
+        <p className="lead">Showcasing my skills and projects</p>
       </div>
-    );
-  };
-  
+    </>
+  );
+};
+
 export default Home;
