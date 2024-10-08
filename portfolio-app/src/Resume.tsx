@@ -1,6 +1,6 @@
 const Resume = () => {
   return (
-    <div className="card" style={{ width: '70%', position: 'center' boxShadow: '0 4px 8px rgba(0, 0, 0, 0.1)' }}>
+    <div className="card" style={{ width: '70%', boxShadow: '0 4px 8px rgba(0, 0, 0, 0.1)' }}>
       <iframe
         src="/resume.pdf"
         title="Resume"

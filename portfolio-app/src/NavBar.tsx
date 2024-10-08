@@ -2,7 +2,7 @@ import { NavLink } from 'react-router-dom';
 
 function NavBar() {
   return (
-    <nav className="navbar navbar-expand-lg">
+    <nav className="navbar navbar-expand-lg fixed-top">
       <div className="container-fluid">
         <NavLink className="navbar-brand" to="/">
           Owen Reedy
