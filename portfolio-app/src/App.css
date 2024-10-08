@@ -151,11 +151,22 @@ p {
   float: none; /* Added */
 }
 
+.center-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* Adjust as needed */
+}
+
 .card h1{
   color: #1c1342;
 }
 
 .card P{
+  color: #1c1342;
+}
+
+.about {
   color: #1c1342;
 }
 

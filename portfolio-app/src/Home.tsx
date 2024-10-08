@@ -1,5 +1,7 @@
 // HomePage
 import { FaLinkedin, FaGithub } from "react-icons/fa";
+import About from "./About";
+import Flashcard from "./Flashcard";
 
 const Home = () => {
   return (
@@ -19,26 +21,26 @@ const Home = () => {
           <h1>Welcome to My Portfolio</h1>
           <p className="lead">Showcasing my skills and personal projects</p>
           <div className="social-links mt-3">
-            <a href="https://www.linkedin.com/in/owen-reedy-8331081ab/" target="_blank" rel="noopener noreferrer" className="me-3">
+            <a
+              href="https://www.linkedin.com/in/owen-reedy-8331081ab/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="me-3"
+            >
               <FaLinkedin size={32} />
             </a>
-            <a href="https://github.com/owenreedy" target="_blank" rel="noopener noreferrer">
+            <a
+              href="https://github.com/owenreedy"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               <FaGithub size={32} />
             </a>
           </div>
         </div>
       </div>
-      <div id="home" className="card">
-        <div className="card-body">
-          <h1>About Me</h1>
-          <p className="lead">
-            I am motivated Software Engineering Student who is seeking to gain
-            experience within the field. Excited by the prospect of being
-            involved with projects that can improve the lives of many. I aim to
-            do so by using the experiences I have gained through leadership
-            roles to effectively work with customers others.
-          </p>
-        </div>
+      <div className="center-container">
+        <Flashcard front="About Me" back={<About />} />
       </div>
     </>
   );
