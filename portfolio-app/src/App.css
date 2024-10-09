@@ -1,4 +1,8 @@
 /* Global Styles */
+.main-content {
+  padding-top: 60px; /* Adjust based on your navbar height */
+}
+
 body {
   font-family: "New Amsterdam", sans-serif;
   font-weight: 400;
@@ -18,30 +22,6 @@ p {
   font-size: 1.1rem;
   line-height: 1.6;
   color: #1c1342;
-}
-
-/* Navbar Customizations */
-.navbar {
-  font-family: "New Amsterdam", sans-serif;
-  font-weight: 400;
-  font-style: normal;
-  background-color: #ffffff; /* Dark background */
-}
-
-.navbar .navbar-brand {
-  color: #1c1342 !important; /* Ensure text is white */
-  font-size: 4rem;
-  margin: 5px 5%;
-}
-
-.navbar-nav .nav-link {
-  color: #1c1342 !important;
-  font-size: 2rem;
-}
-
-.navbar-nav .nav-link.active {
-  font-weight: bold;
-  color: #E87722 !important; /* Highlight active link with Bootstrap's warning color */
 }
 
 /* Hero Section */
