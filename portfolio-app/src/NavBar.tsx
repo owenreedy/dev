@@ -33,6 +33,12 @@ const Navbar: React.FC = () => {
   const closeMenu = () => {
     setIsMenuOpen(false);
   };
+  
+  useEffect(() => {
+    if (showNavbar) {
+      setIsMenuOpen(false);
+    }
+  }, [showNavbar]);
 
   useEffect(() => {
     window.addEventListener("scroll", handleScroll);
@@ -89,15 +95,16 @@ const Navbar: React.FC = () => {
       </nav>
 
       {/* Hamburger Menu */}
-      {showHamburger && (
-        <div className="hamburger-menu" onClick={toggleMenu}>
+      <div
+        className={`hamburger-menu ${showHamburger ? "visible" : ""}`}
+        onClick={showHamburger ? toggleMenu : undefined}
+      >
         <div className={`hamburger-icon ${isMenuOpen ? "open" : ""}`}>
           <span></span>
           <span></span>
           <span></span>
         </div>
       </div>
-      )}
 
       {/* Side Menu */}
       <div className={`side-menu ${isMenuOpen ? "open" : ""}`}>
