@@ -8,20 +8,20 @@ body {
   font-weight: 400;
   font-style: normal;
   background-color: #ffffff; /* Light gray background */
-  color: #1c1342;
+  color: #0C2340;
   margin: 0;
   padding: 0;
 }
 
 h1, h2 {
-  color: #1c1342; /* Bootstrap primary color */
+  color: #0C2340; /* Bootstrap primary color */
   font-weight: bold;
 }
 
 p {
   font-size: 1.1rem;
   line-height: 1.6;
-  color: #1c1342;
+  color: #0C2340;
 }
 
 /* Hero Section */
@@ -30,7 +30,7 @@ p {
   font-weight: 400;
   font-style: normal;
   background-color: #ffffff; /* Primary color background */
-  color: #1c1342;
+  color: #0C2340;
   height: 100vh;
   display: flex;
   justify-content: center; /* Horizontal centering */
@@ -44,12 +44,12 @@ p {
   height: 300px;
   border-radius: 50%; /* Makes the image circular */
   object-fit: cover;  /* Ensures the image covers the circle properly */
-  border: 3px solid #1c1342; /* Optional: Add a border around the image */
+  border: 3px solid #0C2340; /* Optional: Add a border around the image */
 }
 
 /* Social links styling */
 .social-links a {
-  color: #1c1342;
+  color: #0C2340;
   transition: color 0.3s ease;
 }
 
@@ -90,12 +90,12 @@ p {
 
 .features h3 {
   font-size: 1.5rem;
-  color: #1c1342;
+  color: #0C2340;
 }
 
 .features p {
   font-size: 1rem;
-  color: #1c1342;
+  color: #0C2340;
 }
 
 /* Footer */
@@ -126,7 +126,7 @@ p {
   font-family: "New Amsterdam", sans-serif;
   font-weight: 400;
   font-style: normal;
-  color: #1c1342;
+  color: #0C2340;
   margin: 2.5rem auto; /* Added */
   float: none; /* Added */
 }
@@ -139,15 +139,15 @@ p {
 }
 
 .card h1{
-  color: #1c1342;
+  color: #0C2340;
 }
 
 .card P{
-  color: #1c1342;
+  color: #0C2340;
 }
 
 .about {
-  color: #1c1342;
+  color: #0C2340;
 }
 
 /* Responsive Adjustments */

@@ -4,7 +4,7 @@
   font-style: normal;
   transition: transform 0.3s ease-in-out;
   transform: translateY(0);
-  color: #1c1342;
+  color: #0C2340;
   width: 100%;
   position: fixed;
   top: 0;
@@ -12,13 +12,13 @@
 }
 
 .navbar .navbar-brand {
-  color: #1c1342 !important; /* Ensure text is white */
+  color: #0C2340 !important; /* Ensure text is white */
   font-size: 4rem;
   margin: 5px 5%;
 }
 
 .navbar-nav .nav-link {
-  color: #1c1342 !important;
+  color: #0C2340 !important;
   font-size: 2rem;
 }
 
@@ -36,7 +36,7 @@
     top: 10px;
     right: 10px;
     z-index: 1001;
-    background: #1c1342;
+    background: #0C2340;
     border-radius: 5px;
     padding: 10px;
     cursor: pointer;
@@ -91,23 +91,27 @@
   }
   
 
-.side-menu {
-  position: fixed;
-  top: 0;
-  right: -100%; /* Start hidden off the screen */
-  height: 100vh;
-  width: 50%; /* Adjust to cover half the screen */
-  background: #1c1342;
-  color: white;
-  transform: translateX(100%);
-  transition: transform 0.3s ease-in-out;
-  z-index: 1000;
-  box-shadow: -2px 0 5px rgba(0, 0, 0, 0.2);
-}
-
-.side-menu.open {
-  transform: translateX(-100%); /* Slide into view */
-}
+  .side-menu {
+    font-family: "New Amsterdam", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    position: fixed;
+    top: 0;
+    right: 0;
+    height: 100vh;
+    width: 50%; /* Adjust to cover half the screen */
+    background: #0C2340;
+    color: white;
+    transform: translateX(100%); /* Start hidden off the screen */
+    transition: transform 0.3s ease-in-out;
+    z-index: 1000;
+    box-shadow: -2px 0 5px rgba(0, 0, 0, 0.2);
+  }
+  
+  .side-menu.open {
+    transform: translateX(0); /* Slide into view */
+  }
+  
 
 .side-menu ul {
   list-style: none;
