@@ -15,6 +15,7 @@
   color: #0c2340 !important; /* Ensure text is white */
   font-size: 4rem;
   margin: 5px 5%;
+  pointer-events: none; 
 }
 
 .navbar-nav .nav-link {
