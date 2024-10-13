@@ -39,8 +39,24 @@ const Home = () => {
           </div>
         </div>
       </div>
-      <div className="center-container">
-        <Flashcard front="About Me" back={<About />} />
+      <div className="split-container">
+        <div className="left-side">
+          <h1>About Me</h1>
+          <p>
+            I am motivated Software Engineering Student who is seeking to gain
+            experience within the field. Excited by the prospect of being
+            involved with projects that can improve the lives of many. I aim to
+            do so by using the experiences I have gained through leadership
+            roles to effectively work with customers others.
+          </p>
+        </div>
+        <div className="right-side">
+          <img
+            src="temp-profile-pic.jpg" // Replace with your profile picture URL
+            alt="Owen Reedy"
+            className="profile-img me-4"
+          />
+        </div>
       </div>
     </>
   );
