@@ -113,7 +113,7 @@ const Navbar: React.FC = () => {
             <NavLink
               to="/"
               onClick={closeMenu}
-              className={({ isActive }) => (isActive ? "active" : "")}
+              className={({ isActive }: { isActive: boolean }) => (isActive ? "active" : "")}
             >
               Home
             </NavLink>
@@ -122,7 +122,7 @@ const Navbar: React.FC = () => {
             <NavLink
               to="/resume"
               onClick={closeMenu}
-              className={({ isActive }) => (isActive ? "active" : "")}
+              className={({ isActive }: { isActive: boolean }) => (isActive ? "active" : "")}
             >
               Resume
             </NavLink>
@@ -131,7 +131,7 @@ const Navbar: React.FC = () => {
             <NavLink
               to="/contact"
               onClick={closeMenu}
-              className={({ isActive }) => (isActive ? "active" : "")}
+              className={({ isActive }: { isActive: boolean }) => (isActive ? "active" : "")}
             >
               Contact
             </NavLink>

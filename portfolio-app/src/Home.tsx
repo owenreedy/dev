@@ -1,7 +1,5 @@
 // HomePage
 import { FaLinkedin, FaGithub } from "react-icons/fa";
-import About from "./About";
-import Flashcard from "./Flashcard";
 
 const Home = () => {
   return (
